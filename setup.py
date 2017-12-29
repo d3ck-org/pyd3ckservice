@@ -9,7 +9,7 @@ setup(
     name='pyd3ckservice',
     version='0.0.1',
     description='Test project, do not use in production!',
-    packages=['pyd3ckservice/__init__.py', 'pyd3ckservice/flask', 'pyd3ckservice/elasticsearch', 'pyd3ckservice/redis', 'pyd3ckservice/mongo'],
+    packages=['pyd3ckservice/__init__', 'pyd3ckservice/flask', 'pyd3ckservice/elasticsearch', 'pyd3ckservice/redis', 'pyd3ckservice/mongo'],
     install_requires=['pyd3ckbase>=0.0.1'],
     dependency_links=['git+https://github.com/d3ck-org/pyd3ckbase.git#egg=pyd3ckbase-0.0.1']
 )
